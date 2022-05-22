@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h5>Slinder <span class="badge badge-secondary"></span></h5>
+        <div class="container">
+            <div class="row">
+                <div class="col border bg-primary">
+                    <h4 class="text-white mt-2">Cadastro</h4>
+                </div>
+                <form>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <p class="mt-2"><b>id</b></p>
+                            <input type="text" class="form-control" placeholder="" disabled>
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="mt-2"><b>Slider</b></p>
+                            <input type="text" class="form-control" placeholder="Nome do slider">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p class="mt-2"><b>Descrição-Primeira linha</b></p>
+                            <input type="text" class="form-control" placeholder="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p class="mt-2"><b>Descrição-Segunda linha</b></p>
+                            <input type="text" class="form-control" placeholder="Texto cor branco">
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mt-2"><b>Descrição-Segunda linha</b></p>
+                            <input type="text" class="form-control" placeholder="Texto cor verde">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <p class="mt-2"><b>Imagem</b></p>
+                           <div class="input-group">
+                            <input type="text" class="form-control" id="formFile" placeholder="Escolher Imagem">
+                            <label class="input-group-text" for="formFile">Browse</label>
+                            <label class="input-group-text" for="formFile">Upload</label>
+                           </div>
+
+                        </div>
+                        <div class="col-sm-5">
+                            <p class="mt-2"><b>Ordem</b></p>
+                            <input type="text" class="form-control" placeholder="Ordenação dos slides">
+                        </div>
+                        <div class="form-check form-switch col-sm-2 position-relative">
+                       <div class="position-absolute bottom-50 end-70">
+                        <label class="form-check-label" for="flexSwitchCheckChecked">Published</label>   
+                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>  
+                       </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <button type="button" class="btn btn-primary mt-4">Salvar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
